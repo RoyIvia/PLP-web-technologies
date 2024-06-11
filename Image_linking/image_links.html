@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Linking Example</title>
+    <style>
+        /* Add some basic styling for better visualization */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        nav {
+            background: #0b67ad;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px 0;
+        }
+        .gallery img {
+            width: 30%;
+            margin: 1.5%;
+        }
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+        .menu li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#menu">Menu</a>
+        </nav>
+
+        <section id="home">
+            <h1>Welcome to the Image Linking Page</h1>
+            <p>This page includes links to various images related to technology, nature, and food.</p>
+            <a href="https://www.shutterstock.com/shutterstock/photos/1932042689/display_1500/stock-photo-businessman-using-mobile-smart-phone-business-global-internet-connection-application-technology-1932042689.jpg" target="_blank">
+                <img src="tech_image.jpg" alt="Technology Image">
+            </a>
+        </section>
+
+        <section id="gallery">
+            <h2>Nature Gallery</h2>
+            <div class="gallery">
+                <a href="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.2116175301.1718064000&semt=sph" target="_blank">
+                    <img src="nature_image1.jpg" alt="Nature Image 1">
+                </a>
+                <a href="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" target="_blank">
+                    <img src="nature_image2.jpg" alt="Nature Image 2">
+                </a>
+                <a href="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8=" target="_blank">
+                    <img src="nature_image3.jpg" alt="Nature Image 3">
+                </a>
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2>Food Menu</h2>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="https://www.allrecipes.com/thmb/0xH8n2D4cC97t7mcC7eT2SDZ0aE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6776_Pizza-Dough_ddmfs_2x1_1725-fdaa76496da045b3bdaadcec6d4c5398.jpg" target="_blank">Pizza</a>
+                    </li>
+                    <li>
+                        <a href="https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/1:1/w_2560%2Cc_limit/Smashburger-recipe-120219.jpg" target="_blank">Burger</a>
+                    </li>
+                    <li>
+                        <a href="https://everydayglutenfreegourmet.ca/wp-content/uploads/2023/07/handmade-sushi-rolls.jpg" target="_blank">Sushi</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
